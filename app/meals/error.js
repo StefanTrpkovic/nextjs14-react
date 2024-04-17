@@ -1,10 +1,10 @@
 "use client";
 
-export default function ErrorPage({ error }) {
+export default function ErrorPage() {
   return (
     <main className='error'>
       <h1>An error occured!</h1>
-      <p>{error.toString()}</p>
+      <p>Failed to fetch meal data. Please try again later</p>
     </main>
   );
 }
